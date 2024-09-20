@@ -6,17 +6,11 @@
     <body class = "top">
         Kaitlyn Kilner Portfolio
         <div class="topnav">
-            <a onclick= "changeactive(this)" class="active" href="#projects">Projects</a>
-            <a onclick= "changeactive(this)" href="#contact">Contact</a>
-            <a onclick= "changeactive(this)" href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
           </div>
     </body>
-    <script>
-        function changeactive(dv){
-            $(dv.active).removeClass("active");
-            $(dv).addClass(" active");
-        }
-    </script>
     <body id="projects">
         <h1>Rocket Rescue</h1>
         <h2>About</h2>
@@ -35,9 +29,18 @@
         </div>
     </body>
     <body id ="contact">
-        Hi
+        <h1>Contact</h1>
+        <div class="basic">
+            Email: kkilner4@gmail.com
+            Phone: (386)405-5131
+
+        </div>
     </body>
     <body id = "about">
-        Hello
+        <h1>About</h1>
+        <div class="basic">
+            I am a third year Computer Science student at the University of Florida
+            in the College of Engineering.
+        </div>
     </body>
 </html>
