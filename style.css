@@ -1,8 +1,13 @@
+body{
+    display:flex;
+    justify-content: center;
+}
 html{
-    background-color: #CCC9DC;
+    background-color:#EAF5E6;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div.basic{
-    background-color:#5E5C6C;
+    background-color:#CFE2C3;
     color:#00241B;
 }
 h1{
