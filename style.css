@@ -10,12 +10,19 @@ div.basic{
     background-color:#CFE2C3;
     color:#00241B;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
 }
 h1{
     background-color: #65B891;
-    color:#00241B
+    color:#00241B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+
+    
 }
 h2{
     background-color: #93E5AB;
-    color:#00241B
+    color:#00241B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5em;
 }
