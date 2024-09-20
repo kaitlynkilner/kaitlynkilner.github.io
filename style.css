@@ -1,1 +1,15 @@
-p{color:green;}
+html{
+    background-color: #CCC9DC;
+}
+div.basic{
+    background-color:#5E5C6C;
+    color:#00241B;
+}
+h1{
+    background-color: #65B891;
+    color:#00241B
+}
+h2{
+    background-color: #93E5AB;
+    color:#00241B
+}
