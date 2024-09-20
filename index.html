@@ -6,11 +6,17 @@
     <body class = "top">
         Kaitlyn Kilner Portfolio
         <div class="topnav">
-            <a class="active" href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a onclick= "changeactive(this)" class="active" href="#projects">Projects</a>
+            <a onclick= "changeactive(this)" href="#contact">Contact</a>
+            <a onclick= "changeactive(this)" href="#about">About</a>
           </div>
     </body>
+    <script>
+        function changeactive(dv){
+            $(dv.active).removeClass("active");
+            $(dv).addClass(" active");
+        }
+    </script>
     <body id="projects">
         <h1>Rocket Rescue</h1>
         <h2>About</h2>
