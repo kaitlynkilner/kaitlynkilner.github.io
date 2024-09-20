@@ -13,6 +13,7 @@ body.top{
     background-color:#b0bdab;
     color:#00241B;
     font-size:4em;
+    padding: auto;
 
 }
 body.main{
@@ -52,7 +53,7 @@ h2{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: .3em;
+    font-size: 17px;
   }
   
   /* Change the color of links on hover */
