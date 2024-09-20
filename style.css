@@ -32,6 +32,7 @@ div.basic{
     width: 70%;
     font-size:.3em;
     text-align: center; 
+    align-items: center;
 }
 h1{
     color:#00241B;
