@@ -2,7 +2,6 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
 }
 html{
     background-color:#EAF5E6;
@@ -12,6 +11,7 @@ div.basic{
     color:#00241B;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
+    width: 50%;
 }
 h1{
     background-color: #65B891;
