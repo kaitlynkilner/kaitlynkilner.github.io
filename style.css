@@ -1,14 +1,16 @@
 body{
     display:flex;
     justify-content: center;
+    align-items: flex-start, space-around;
+    flex-direction: column;
 }
 html{
     background-color:#EAF5E6;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div.basic{
     background-color:#CFE2C3;
     color:#00241B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
     background-color: #65B891;
